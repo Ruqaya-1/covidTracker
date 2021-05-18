@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #eee;
+}
+body {
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 0 1% 0;
+}
+.logo img {
+  width: 40px;
+}
+.statistics {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 7rem);
+}
+.total-cases {
+  background-color: #4473bc;
+}
+.active {
+  background-color: #fce6af;
+}
+.recovered {
+  background-color: #93d900;
+}
+.deceased {
+  background-color: #e32d2d;
+}
+.vaccinated {
+  background-color: #ec83ee;
+}
